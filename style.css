@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+}
+body{
+    text-align: center;
+    background-color: cyan;
+}
+input{
+    position: relative;
+    top: 20vh;left:560px;
+}
+#timer{
+    color: blue; 
+    
+    position: relative;
+    top: 110px;
+    left: 43%;
+    font-size: 24pt;
+}
+#btn{
+    padding: 5px;
+    max-height: 900px;
+   
+}
+@media screen {
+    *{
+        padding: 0;
+        margin: 0;
+        position: relative;
+        
+    }
+    #btn{
+        position: initial;
+        left: 35%;
+    }
+}
